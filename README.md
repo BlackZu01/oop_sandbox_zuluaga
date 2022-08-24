@@ -18,6 +18,3 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-
-This is latex code 
-$$ f: X \longrightarrow Y $$
