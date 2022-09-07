@@ -1,5 +1,6 @@
 # Prueba de la clase
 from typing import Tuple
+import xdrlib
 
 class EuclideanMetric:
 
@@ -11,4 +12,4 @@ class EuclideanMetric:
         return ((self.y[0] - self.x[0])**2 + (self.y[1] - self.x[1])**2)**(1/2)
 
 distancia = EuclideanMetric((2, 3), (4, 7))
-print(distancia.distance())
+print(distancia.distance()) 
